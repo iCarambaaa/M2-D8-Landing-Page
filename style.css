@@ -19,9 +19,31 @@
     overflow: hidden;
   }
 
-.textbottom{
-    top: 2;
+.flex{
+    display: flex;
 }
-  .texttop{
-
+ 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+.bottom{
+    display: flex;
+    
+    align-items:flex-end;
+  }
+
+  h1{
+      font-weight: 300;
+  }
+  .flexflow{
+    flex-flow: row wrap;
+  }
+
+.card{
+    padding: 0;
+    text-align: left;
+}
+
